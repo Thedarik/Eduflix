@@ -1,4 +1,4 @@
-import 'package:Eduflix/src/feature/home/view/homa_page.dart';
+import 'package:Eduflix/src/feature/splash/view/pages/saplesh_page.dart';
 import 'package:flutter/material.dart';
 
 import '../style/colors.dart';
@@ -8,7 +8,7 @@ final class AppRouter<T extends Object?> {
   Route<T> onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
       case AppRouteName.homaPage:
-        return MaterialPageRoute<T>(builder: (context) => const HomaPage());
+        return MaterialPageRoute<T>(builder: (context) => const SplashPage());
       default:
         return _errorRoute();
     }
