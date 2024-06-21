@@ -20,6 +20,7 @@ void run() => l.capture<void>(
           l.e('io_top_level_error: $error\n $stackTrace', stackTrace);
         },
       ),
+      
       const LogOptions(
         printColors: true,
         handlePrint: true,
