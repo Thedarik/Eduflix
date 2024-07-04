@@ -1,5 +1,5 @@
 import 'package:Eduflix/src/core/style/colors.dart';
-import 'package:Eduflix/src/core/style/text_style.dart';
+import 'package:Eduflix/src/core/style/images.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -8,12 +8,9 @@ class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.cFADF6F,
+      backgroundColor: AppColors.white,
       body: Center(
-        child: Text(
-          "Assalomu alaykum",
-          style: const AppTextStyle().profileDisplaySmall,
-        ),
+        child: AppImages.splashLogo,
       ),
     );
   }

@@ -4,5 +4,6 @@ import 'package:flutter/foundation.dart';
 final class AppRouteName {
   const AppRouteName._();
 
-  static const String homaPage = '/home';
+  static const String splashPage = '/splashPage';
+  static const String onBoardingPage = '/onBoardingPage';
 }

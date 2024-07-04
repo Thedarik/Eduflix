@@ -10,7 +10,7 @@ class AppMaterialContext extends StatelessWidget {
         builder: (context) => MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Audio Book',
-          initialRoute: AppRouteName.homaPage,
+          initialRoute: AppRouteName.onBoardingPage,
           onGenerateRoute: AppRouter().onGenerateRoute,
           builder: (context, child) => MediaQuery(
             data: MediaQuery.of(context)

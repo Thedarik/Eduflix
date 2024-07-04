@@ -7,18 +7,33 @@ sealed class AppImages {
   const AppImages._();
 
   /// SVG
-  static final googleIcon = SvgPicture.asset(
-    'assets/icons/logos_google.svg',
-    height: 24.h,
-    width: 24.w,
+  static final splashLogo = SvgPicture.asset(
+    'assets/icons/eduflixLogo.svg',
+    height: 321.h,
+    width: 321.w,
     fit: BoxFit.cover,
+  );
+  static final onBoardingLogo = SvgPicture.asset(
+    'assets/icons/eduflixLogo.svg',
+    height: 300.h,
+    width: 300.w,
+    fit: BoxFit.cover,
+  );
+  static final OnboardingIcon = SvgPicture.asset(
+    'assets/icons/mdi_user.svg',
+  );
+  static final googleLogo = SvgPicture.asset(
+    'assets/icons/google_logo.svg',
+  );
+  static final appleLogo = SvgPicture.asset(
+    'assets/icons/google_logo.svg',
   );
 
   /// PNG
-  static final authLogo = Image.asset(
-    '',
-    height: 79.h,
-    width: 380.w,
+  static final authImage = Image.asset(
+    'assets/images/educationLogo.png',
+    height: 321,
+    width: 321,
     fit: BoxFit.cover,
   );
 }

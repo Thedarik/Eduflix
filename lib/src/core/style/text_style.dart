@@ -12,21 +12,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get bodySmall => TextStyle(
         fontWeight: FontWeight.w500,
         fontSize: FontSize.size18,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.black,
       );
   @override
   TextStyle? get bodyMedium => TextStyle(
         fontWeight: FontWeight.w400,
-        fontSize: FontSize.size18,
-        fontFamily: 'Rubik',
+        fontSize: FontSize.size16,
+        fontFamily: 'Kanit',
         color: AppColors.black,
       );
   @override
   TextStyle? get bodyLarge => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size16,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cD0D4DB,
       );
   @override
@@ -35,21 +35,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get labelSmall => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size24,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.black,
       );
   @override
   TextStyle? get labelMedium => TextStyle(
         fontWeight: FontWeight.w600,
         fontSize: FontSize.size18,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.white,
       );
   @override
   TextStyle? get labelLarge => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size13,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cE0E0E0,
       );
 
@@ -58,21 +58,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get titleSmall => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size13,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.c9DE892,
       );
   @override
   TextStyle? get titleMedium => TextStyle(
         fontWeight: FontWeight.w500,
         fontSize: FontSize.size16,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cC7C7C7,
       );
   @override
   TextStyle? get titleLarge => TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: FontSize.size12,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.c666666,
       );
 
@@ -81,21 +81,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get headlineSmall => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size10,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cE0E0E0,
       );
   @override
   TextStyle? get headlineMedium => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size12,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.c666666,
       );
   @override
   TextStyle? get headlineLarge => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size15,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cE8E8E8,
       );
 
@@ -104,21 +104,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get displaySmall => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size16,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.black,
       );
   @override
   TextStyle? get displayMedium => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size16,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.white,
       );
   @override
   TextStyle? get displayLarge => TextStyle(
         fontWeight: FontWeight.w500,
         fontSize: FontSize.size11,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cC7C7C7,
       );
 
@@ -129,21 +129,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get profileBodySmall => TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: FontSize.size15,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cE8E8E8,
       );
   @override
   TextStyle? get profileBodyMedium => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size13,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cE0E0E0,
       );
   @override
   TextStyle? get profileBodyLarge => TextStyle(
         fontWeight: FontWeight.w700,
         fontSize: FontSize.size13,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.c64DA40,
       );
   @override
@@ -152,21 +152,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get profileLabelSmall => TextStyle(
         fontWeight: FontWeight.w600,
         fontSize: FontSize.size20,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.c64DA40,
       );
   @override
   TextStyle? get profileLabelMedium => TextStyle(
         fontWeight: FontWeight.w600,
         fontSize: FontSize.size20,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.white,
       );
   @override
   TextStyle? get profileLabelLarge => TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: FontSize.size18,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cE0E0E0,
       );
 
@@ -175,21 +175,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get profileTitleSmall => TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: FontSize.size15,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.c181818,
       );
   @override
   TextStyle? get profileTitleMedium => TextStyle(
         fontWeight: FontWeight.w700,
         fontSize: FontSize.size16,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.white,
       );
   @override
   TextStyle? get profileTitleLarge => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size18,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.white,
       );
 
@@ -198,21 +198,21 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get profileHeadlineSmall => TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: FontSize.size15,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.white,
       );
   @override
   TextStyle? get profileHeadlineMedium => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size16,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.cE0E0E0,
       );
   @override
   TextStyle? get profileHeadlineLarge => TextStyle(
         fontWeight: FontWeight.w600,
         fontSize: FontSize.size16,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.black,
       );
 
@@ -221,7 +221,7 @@ final class AppTextStyle extends TextTheme {
   TextStyle? get profileDisplaySmall => TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size15,
-        fontFamily: 'Rubik',
+        fontFamily: 'Kanit',
         color: AppColors.c727272,
       );
 }
