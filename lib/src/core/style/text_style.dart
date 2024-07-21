@@ -224,6 +224,27 @@ final class AppTextStyle extends TextTheme {
         fontFamily: 'Kanit',
         color: AppColors.c727272,
       );
+  @override
+  TextStyle? get authDisplayLarge => TextStyle(
+        fontWeight: FontWeight.w500,
+        fontSize: FontSize.size15,
+        fontFamily: 'Kanit',
+        color: AppColors.c7A7E89,
+      );
+  @override
+  TextStyle? get authDisplayMedium => TextStyle(
+        fontWeight: FontWeight.w500,
+        fontSize: FontSize.size15,
+        fontFamily: 'Kanit',
+        color: AppColors.black,
+      );
+  @override
+  TextStyle? get authTitleSmall => TextStyle(
+        fontWeight: FontWeight.w500,
+        fontSize: FontSize.size30,
+        fontFamily: 'Kanit',
+        color: AppColors.black,
+      );
 }
 
 @immutable
@@ -239,4 +260,5 @@ final class FontSize {
   static double size18 = 18.sp;
   static double size20 = 20.sp;
   static double size24 = 24.sp;
+  static double size30 = 30.sp;
 }

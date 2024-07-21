@@ -42,7 +42,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/2024-06-21 04.43.58.jpg"
+  image_path: "assets/images/app_logo.png"
 
 flutter:
   uses-material-design: true
