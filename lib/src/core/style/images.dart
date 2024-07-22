@@ -30,12 +30,12 @@ sealed class AppImages {
   );
 
   /// PNG
-  static final authImage = Image.asset(
-    'assets/images/educationLogo.png',
-    height: 321,
-    width: 321,
-    fit: BoxFit.cover,
-  );
+  // static final authImage = Image.asset(
+  //   'assets/images/educationLogo.png',
+  //   height: 321,
+  //   width: 321,
+  //   fit: BoxFit.cover,
+  // );
 }
 
 extension Extension on Image {
