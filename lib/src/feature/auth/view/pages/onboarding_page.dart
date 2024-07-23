@@ -1,6 +1,7 @@
 import 'package:Eduflix/src/core/style/colors.dart';
 import 'package:Eduflix/src/core/style/images.dart';
 import 'package:Eduflix/src/core/style/text_style.dart';
+import 'package:Eduflix/src/feature/learing/view/pages/learing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -34,7 +35,14 @@ class OnboardingPage extends StatelessWidget {
                   color: AppColors.c00C2CB,
                 ),
                 child: MaterialButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LearingPage(),
+                      ),
+                    );
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [

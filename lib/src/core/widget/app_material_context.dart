@@ -10,11 +10,11 @@ class AppMaterialContext extends StatelessWidget {
         builder: (context) => MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Audio Book',
-          initialRoute: AppRouteName.onBoardingPage,
+          darkTheme: ThemeData.dark(),
+          initialRoute: AppRouteName.learingPage,
           onGenerateRoute: AppRouter().onGenerateRoute,
           builder: (context, child) => MediaQuery(
-            data: MediaQuery.of(context)
-                .copyWith(textScaler: TextScaler.noScaling),
+            data: MediaQuery.of(context).copyWith(textScaler: TextScaler.noScaling),
             child: ScrollConfiguration(
               behavior: const ScrollBehavior(),
               child: child ?? const Scaffold(),
