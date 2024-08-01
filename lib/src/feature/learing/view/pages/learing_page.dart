@@ -27,7 +27,7 @@ class LearingPage extends StatelessWidget {
             ),
             bottom: TabBar(
               indicator: const UnderlineTabIndicator(
-                borderSide: BorderSide(width: 1, color: Colors.white),
+                borderSide: BorderSide(width: 1, color: Colors.white,),
                 insets: EdgeInsets.symmetric(horizontal: 16.0),
               ),
               indicatorSize: TabBarIndicatorSize.tab,

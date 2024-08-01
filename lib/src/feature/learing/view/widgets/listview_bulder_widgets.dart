@@ -9,74 +9,79 @@ class ListviewBulderWidgets extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: GridView.builder(
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          mainAxisSpacing: 41,
-          crossAxisSpacing: 25,
-        ),
-        itemCount: 20,
-        itemBuilder: (context, index) {
-          return Column(
-            children: [
-              SizedBox(
-                height: 104.h,
-                width: 200.w,
-                child: const DecoratedBox(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(20),
-                      topRight: Radius.circular(20),
-                    ),
-                    color: Colors.red,
-                  ),
-                ),
-              ),
-              SizedBox(
-                height: 74.3.h,
-                width: 200.w,
-                child: DecoratedBox(
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(20),
-                      bottomRight: Radius.circular(20),
-                    ),
-                    color: AppColors.c1A1C1E,
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(
-                          left: 5,
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            "Principles of Business",
-                            style: const AppTextStyle().titleMedium,
-                          ),
-                        ),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: GridView.builder(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            mainAxisSpacing: 41,
+            crossAxisSpacing: 10,
+          ),
+          itemCount: 20,
+          itemBuilder: (context, index) {
+            return Column(
+              children: [
+                SizedBox(
+                  height: 104.h,
+                  width: 200.w,
+                  child:  DecoratedBox(
+                    
+                    decoration: BoxDecoration(
+                      image: DecorationImage(image: NetworkImage("")),
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(20),
+                        topRight: Radius.circular(20),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.only(
-                          left: 5,
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            "Andrew Tate",
-                            style: AppTextStyle().titleLarge,
-                          ),
-                        ),
-                      )
-                    ],
+                    
+                    ),
                   ),
                 ),
-              )
-            ],
-          );
-        },
+                SizedBox(
+                  height: 74.3.h,
+                  width: 200.w,
+                  child: DecoratedBox(
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.only(
+                        bottomLeft: Radius.circular(20),
+                        bottomRight: Radius.circular(20),
+                      ),
+                      color: AppColors.c1A1C1E,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(
+                            left: 5,
+                          ),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              "Principles of Business",
+                              style: const AppTextStyle().titleMedium,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(
+                            left: 5,
+                          ),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              "Andrew Tate",
+                              style: AppTextStyle().titleLarge,
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                )
+              ],
+            );
+          },
+        ),
       ),
     );
   }
