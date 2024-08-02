@@ -29,7 +29,7 @@ class LearningSearchWidgets extends StatelessWidget {
               padding: EdgeInsets.only(right: 21),
               child: Icon(
                 CupertinoIcons.search,
-                size: 20,
+                size: 18,
                 color: AppColors.cE0E0E0,
               ),
             ),

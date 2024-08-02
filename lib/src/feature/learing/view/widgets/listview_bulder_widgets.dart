@@ -2,6 +2,7 @@ import 'package:Eduflix/src/core/style/colors.dart';
 import 'package:Eduflix/src/core/style/text_style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
 
 class ListviewBulderWidgets extends StatelessWidget {
   const ListviewBulderWidgets({super.key});
@@ -24,20 +25,27 @@ class ListviewBulderWidgets extends StatelessWidget {
                 SizedBox(
                   height: 104.h,
                   width: 200.w,
-                  child:  DecoratedBox(
-                    
-                    decoration: BoxDecoration(
-                      image: DecorationImage(image: NetworkImage("")),
-                      borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(20),
-                        topRight: Radius.circular(20),
+                  child: ClipRRect(
+                    borderRadius: const BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      topRight: Radius.circular(20),
+                    ),
+                    child: DecoratedBox(
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(20),
+                          topRight: Radius.circular(20),
+                        ),
                       ),
-                    
+                      child: SvgPicture.asset(
+                        "assets/icons/eduflixLogo.svg",
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ),
                 SizedBox(
-                  height: 74.3.h,
+                  height: 70.3.h,
                   width: 200.w,
                   child: DecoratedBox(
                     decoration: const BoxDecoration(
@@ -70,7 +78,7 @@ class ListviewBulderWidgets extends StatelessWidget {
                             alignment: Alignment.centerLeft,
                             child: Text(
                               "Andrew Tate",
-                              style: AppTextStyle().titleLarge,
+                              style: const AppTextStyle().titleLarge,
                             ),
                           ),
                         )

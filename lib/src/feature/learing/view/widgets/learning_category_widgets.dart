@@ -1,8 +1,8 @@
 import 'package:Eduflix/src/core/style/colors.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+// ignore: must_be_immutable
 class LearningCategoryWidgets extends StatelessWidget {
   LearningCategoryWidgets({super.key});
 
